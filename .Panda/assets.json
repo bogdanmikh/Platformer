@@ -1,0 +1,59 @@
+{
+    "assets": [
+        {
+            "id": 2643091033,
+            "type": "TEXTURE",
+            "path": "Assets/Enemy1.png"
+        },
+        {
+            "id": 2595846413,
+            "type": "TEXTURE",
+            "path": "Assets/ground.png"
+        },
+        {
+            "id": 2532348140,
+            "type": "TEXTURE",
+            "path": "Assets/Fire.png"
+        },
+        {
+            "id": 4284885201,
+            "type": "TEXTURE",
+            "path": "Assets/Back.png"
+        },
+        {
+            "id": 796567039,
+            "type": "TEXTURE",
+            "path": "Assets/cloud.png"
+        },
+        {
+            "id": 3351241205,
+            "type": "TEXTURE",
+            "path": "Assets/Coin.png"
+        },
+        {
+            "id": 2266975482,
+            "type": "TEXTURE",
+            "path": "Assets/AnimationCalmness.png"
+        },
+        {
+            "id": 2506313405,
+            "type": "TEXTURE",
+            "path": "Assets/Enemy2.png"
+        },
+        {
+            "id": 4281199935,
+            "type": "TEXTURE",
+            "path": "Assets/Jump.png"
+        },
+        {
+            "id": 606507359,
+            "type": "TEXTURE",
+            "path": "Assets/Back.jpeg"
+        },
+        {
+            "id": 1620364524,
+            "type": "TEXTURE",
+            "path": "Assets/AnimationRun.png"
+        }
+    ]
+}
