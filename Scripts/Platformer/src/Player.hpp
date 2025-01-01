@@ -19,6 +19,7 @@ public:
 
     void beginCollisionTouch(Entity other) override;
     void endCollisionTouch(Entity other) override;
+    void beginSensorOverlap(Entity sensor) override;
 
     float jumpForce;
     float speed;
@@ -39,6 +40,8 @@ private:
 
     void setState(State newState);
     void setDirection(Direction newDirection);
+
+    Vec3 defaultPos;
 
     Direction direction;
     State state;

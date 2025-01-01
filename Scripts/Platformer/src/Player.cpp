@@ -10,9 +10,11 @@ void Player::start() {
     sprite = getEntity().getComponent<SpriteRendererComponent>();
     transform = getEntity().getComponent<TransformComponent>();
 
-    restAnim.start(sprite, rest, 2, 1, 0.7);
-    //    jumpAnim.start(sprite, jump, 2, 1);
-    runAnim.start(sprite, run, 4, 1, 0.1);
+    defaultPos = transform.getPosition();
+
+    restAnim.start(sprite, rest, 3, 1, 0.7);
+    jumpAnim.start(sprite, jump, 3, 1);
+    runAnim.start(sprite, run, 10, 1, 0.1);
     setState(State::REST);
     onGround = false;
     currentAnimation = &restAnim;
@@ -20,15 +22,19 @@ void Player::start() {
 
 void Player::beginCollisionTouch(Entity other) {
     if (strCmp("Ground", other.getName(), 6) == 0) {
-        LOG_INFO("Enter");
         onGround = true;
     }
 }
 
 void Player::endCollisionTouch(Entity other) {
     if (strCmp("Ground", other.getName(), 6) == 0) {
-        LOG_INFO("Exit");
         onGround = false;
+    }
+}
+
+void Player::beginSensorOverlap(Bamboo::Entity sensor) {
+    if (strCmp("DiedZone", sensor.getName(), 8) == 0) {
+        transform.setPosition(defaultPos);
     }
 }
 
@@ -54,8 +60,13 @@ void Player::update(float dt) {
         } else if (velocity.x < -0.1) {
             velocity.x += stopSpeed * dt;
         } else {
+            velocity.x = 0;
             setState(State::REST);
         }
+    }
+
+    if (velocity.y > 0.1) {
+        setState(State::JUMP);
     }
 
     transform.setRotationEuler({0, (direction == Direction::LEFT ? 180.f : 0.f), 0});
@@ -79,6 +90,7 @@ void Player::setState(State newState) {
             currentAnimation = &restAnim;
             break;
         case JUMP:
+            currentAnimation = &jumpAnim;
             break;
     }
     state = newState;
