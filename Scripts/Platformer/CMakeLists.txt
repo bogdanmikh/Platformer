@@ -6,9 +6,8 @@ set(BIN_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${BIN_DIRECTORY})
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BIN_DIRECTORY})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BIN_DIRECTORY})
-set(PANDA_DIRECTORY "/Users/bogdan/GameDevProjects/Panda")
 
-link_directories("${PANDA_DIRECTORY}/bin")
+link_directories("$ENV{BAMBOO_DIR}/bin")
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_compile_options(-DPROFILE)
@@ -32,6 +31,6 @@ set_target_properties(Platformer
 
 target_include_directories(Platformer PUBLIC ${PROJECT_SOURCE_DIR}/src)
 
-# Dependencies - ScriptCore
-target_include_directories(Platformer PUBLIC ${PANDA_DIRECTORY}/ScriptCoreCpp/include)
-target_link_libraries(Platformer ScriptCoreCpp)
+# Dependencies - Bamboo
+target_include_directories(Platformer PUBLIC $ENV{BAMBOO_DIR}/include)
+target_link_libraries(Platformer Bamboo)

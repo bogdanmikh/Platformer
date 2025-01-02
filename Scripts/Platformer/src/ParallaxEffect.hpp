@@ -20,9 +20,11 @@ public:
 
     Entity target;
     float speed;
+    float offsetY;
     PANDA_FIELDS_BEGIN(ParallaxEffect)
     PANDA_FIELD(target)
     PANDA_FIELD(speed)
+    PANDA_FIELD(offsetY)
     PANDA_FIELDS_END
 private:
     TransformComponent transform;

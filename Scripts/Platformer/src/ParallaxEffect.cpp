@@ -20,22 +20,9 @@ void ParallaxEffect::update(float dt) {
 
     Vec3 targetPosition = targetTransform.getPosition();
     Vec3 position = transform.getPosition();
-    float maxDiffPos = 1.0;
-    float diffPos = targetPosition.x - position.x;
 
-    if (diffPos > maxDiffPos) {
-        position.x += speed * dt;
-    } else if (diffPos < -maxDiffPos) {
-        position.x -= speed * dt;
-    } else {
-        float stopSpeed = speed / 2;
-        if (diffPos > 0.1) {
-            position.x -= stopSpeed * dt;
-        } else if (diffPos < -0.1) {
-            position.x += stopSpeed * dt;
-        } else {
-            position.x = 0;
-        }
-    }
+    position.x = targetPosition.x;
+    position.y = targetPosition.y + offsetY;
+
     transform.setPosition(position);
 }
