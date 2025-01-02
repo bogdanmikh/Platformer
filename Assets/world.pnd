@@ -7,9 +7,9 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 4.704471111297607,
-                    "z": -4.599999904632568
+                    "x": -7.381888389587402,
+                    "y": 7.764291286468506,
+                    "z": -4.212836265563965
                 },
                 "rotation": {
                     "x": 0.0,
@@ -44,19 +44,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 2.4000000953674316
                             }
@@ -74,9 +74,9 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 4.304471015930176,
-                    "z": -4.699999809265137
+                    "x": -7.381888389587402,
+                    "y": 7.364291191101074,
+                    "z": -3.33935284614563
                 },
                 "rotation": {
                     "x": 0.0,
@@ -111,19 +111,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 2.0
                             }
@@ -141,8 +141,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 4.804471015930176,
+                    "x": -7.381888389587402,
+                    "y": 7.864291191101074,
                     "z": -4.800000190734863
                 },
                 "rotation": {
@@ -178,19 +178,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 2.5
                             }
@@ -208,8 +208,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 4.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 7.364291191101074,
                     "z": -4.900000095367432
                 },
                 "rotation": {
@@ -245,19 +245,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 2.0
                             }
@@ -275,8 +275,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 2.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 5.364291191101074,
                     "z": -5.160007476806641
                 },
                 "rotation": {
@@ -312,19 +312,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 1.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 0.0
                             }
@@ -379,7 +379,7 @@
                         "scriptFields": [
                             {
                                 "name": "fire",
-                                "fieldId": 2113335847,
+                                "fieldId": 1,
                                 "type": 3,
                                 "value": 2532348140
                             }
@@ -633,8 +633,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 7.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 10.364291191101074,
                     "z": -10.338687896728516
                 },
                 "rotation": {
@@ -670,19 +670,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 5.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 5.0
                             }
@@ -700,8 +700,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 2.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 5.364291191101074,
                     "z": 8.0
                 },
                 "rotation": {
@@ -735,7 +735,7 @@
                         "scriptFields": [
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 3538450477
                             }
@@ -753,8 +753,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271946430206299,
-                    "y": 2.3044698238372803,
+                    "x": -7.381887435913086,
+                    "y": 6.064934730529785,
                     "z": 0.0
                 },
                 "rotation": {
@@ -779,8 +779,8 @@
                 },
                 "cols": 3,
                 "rows": 1,
-                "index": 1,
-                "texture": 4228229417
+                "index": 2,
+                "texture": 4281199935
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -790,33 +790,33 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 500.0
                             },
                             {
                                 "name": "rest",
-                                "fieldId": 1872394507,
+                                "fieldId": 5,
                                 "type": 3,
                                 "value": 4228229417
                             },
                             {
                                 "name": "run",
-                                "fieldId": 1458461889,
+                                "fieldId": 3,
                                 "type": 3,
                                 "value": 355200902
                             },
                             {
                                 "name": "jump",
-                                "fieldId": 1274195223,
+                                "fieldId": 4,
                                 "type": 3,
                                 "value": 4281199935
                             },
                             {
                                 "name": "jumpForce",
-                                "fieldId": 2303324325,
+                                "fieldId": 1,
                                 "type": 1,
-                                "value": 800.0
+                                "value": 500.0
                             }
                         ]
                     }
@@ -908,7 +908,7 @@
             "transformComponent": {
                 "position": {
                     "x": -4.480896472930908,
-                    "y": 2.054443120956421,
+                    "y": 2.054442882537842,
                     "z": 0.0
                 },
                 "rotation": {
@@ -1347,8 +1347,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 3.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 6.27570915222168,
                     "z": -8.31923770904541
                 },
                 "rotation": {
@@ -1384,19 +1384,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 1.0
                             }
@@ -1414,8 +1414,8 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -6.271947383880615,
-                    "y": 4.304471015930176,
+                    "x": -7.381888389587402,
+                    "y": 7.27570915222168,
                     "z": -5.0
                 },
                 "rotation": {
@@ -1451,19 +1451,19 @@
                         "scriptFields": [
                             {
                                 "name": "speed",
-                                "fieldId": 2859271380,
+                                "fieldId": 2,
                                 "type": 1,
                                 "value": 0.0
                             },
                             {
                                 "name": "target",
-                                "fieldId": 775320431,
+                                "fieldId": 1,
                                 "type": 2,
                                 "value": 2061710494
                             },
                             {
                                 "name": "offsetY",
-                                "fieldId": 2216118356,
+                                "fieldId": 3,
                                 "type": 1,
                                 "value": 2.0
                             }
