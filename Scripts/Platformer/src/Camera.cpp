@@ -1,6 +1,7 @@
 //
 // Created by Bogdan on 28.12.2024.
 //
+
 #include <Bamboo/Logger.hpp>
 
 #include <Bamboo/Math.hpp>

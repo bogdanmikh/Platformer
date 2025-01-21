@@ -6,14 +6,9 @@
             "path": "Assets/Back.jpeg"
         },
         {
-            "id": 1620364524,
+            "id": 4228229417,
             "type": "TEXTURE",
-            "path": "Assets/AnimationRun.png"
-        },
-        {
-            "id": 355200902,
-            "type": "TEXTURE",
-            "path": "Assets/Run.png"
+            "path": "Assets/Rest.png"
         },
         {
             "id": 4281199935,
@@ -21,9 +16,14 @@
             "path": "Assets/Jump.png"
         },
         {
-            "id": 4228229417,
+            "id": 355200902,
             "type": "TEXTURE",
-            "path": "Assets/Rest.png"
+            "path": "Assets/Run.png"
+        },
+        {
+            "id": 1620364524,
+            "type": "TEXTURE",
+            "path": "Assets/AnimationRun.png"
         },
         {
             "id": 4284885201,

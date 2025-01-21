@@ -10,19 +10,16 @@
 void ParallaxEffect::start() {
     transform = getEntity().getComponent<TransformComponent>();
     targetTransform = target.getComponent<TransformComponent>();
+    offsetY = transform.getPosition().y - targetTransform.getPosition().y;
+    offsetX = transform.getPosition().x - targetTransform.getPosition().x;
 }
 
 void ParallaxEffect::update(float dt) {
-    if (!target.isValid()) {
-        LOG_ERROR("Player not valid");
-        return;
-    }
-
     Vec3 targetPosition = targetTransform.getPosition();
     Vec3 position = transform.getPosition();
 
-    position.x = targetPosition.x;
-    position.y = targetPosition.y + offsetY;
+    position.x = targetPosition.x * speed + offsetX;
+    position.y = targetPosition.y * speed + offsetY;
 
     transform.setPosition(position);
 }
