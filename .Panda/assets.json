@@ -1,119 +1,54 @@
 {
     "assets": [
         {
-            "id": 606507359,
-            "type": "TEXTURE",
-            "path": "Assets/Back.jpeg"
+            "id": 343878163,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Enemy1.png"
+            }
         },
         {
-            "id": 4228229417,
-            "type": "TEXTURE",
-            "path": "Assets/Rest.png"
+            "id": 3278649168,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/cloud.png"
+            }
         },
         {
-            "id": 4281199935,
-            "type": "TEXTURE",
-            "path": "Assets/Jump.png"
+            "id": 3721190324,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Rest.png"
+            }
         },
         {
-            "id": 355200902,
-            "type": "TEXTURE",
-            "path": "Assets/Run.png"
+            "id": 3216159906,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/ground.png"
+            }
         },
         {
-            "id": 1620364524,
-            "type": "TEXTURE",
-            "path": "Assets/AnimationRun.png"
-        },
-        {
-            "id": 4284885201,
-            "type": "TEXTURE",
-            "path": "Assets/Back.png"
-        },
-        {
-            "id": 2532348140,
-            "type": "TEXTURE",
-            "path": "Assets/Fire.png"
-        },
-        {
-            "id": 2506313405,
-            "type": "TEXTURE",
-            "path": "Assets/Enemy2.png"
-        },
-        {
-            "id": 2643091033,
-            "type": "TEXTURE",
-            "path": "Assets/Enemy1.png"
-        },
-        {
-            "id": 356001393,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/6.png"
-        },
-        {
-            "id": 367009584,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/7.png"
-        },
-        {
-            "id": 555826198,
-            "type": "TEXTURE",
-            "path": "Assets/Jump.jpg"
-        },
-        {
-            "id": 364930476,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/3.png"
-        },
-        {
-            "id": 1021725159,
-            "type": "TEXTURE",
-            "path": "Assets/Back.jpg"
-        },
-        {
-            "id": 3351241205,
-            "type": "TEXTURE",
-            "path": "Assets/Coin.png"
-        },
-        {
-            "id": 2595846413,
-            "type": "TEXTURE",
-            "path": "Assets/ground.png"
-        },
-        {
-            "id": 796567039,
-            "type": "TEXTURE",
-            "path": "Assets/cloud.png"
-        },
-        {
-            "id": 346724270,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/5.png"
-        },
-        {
-            "id": 2266975482,
-            "type": "TEXTURE",
-            "path": "Assets/AnimationCalmness.png"
-        },
-        {
-            "id": 2346519027,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/8.png"
-        },
-        {
-            "id": 2076194829,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/2.png"
-        },
-        {
-            "id": 3342606651,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/4.png"
-        },
-        {
-            "id": 3881401565,
-            "type": "TEXTURE",
-            "path": "Assets/Parallax/1.png"
+            "id": 95309856,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Enemy2.png"
+            }
         }
     ]
 }

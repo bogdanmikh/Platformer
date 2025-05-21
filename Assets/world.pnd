@@ -1,9 +1,72 @@
 {
     "entities": [
         {
+            "id": 1792531514,
+            "tagComponent": {
+                "tag": "Background"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": [
+                    549530867,
+                    3747247954,
+                    2716300491,
+                    3330233668,
+                    790079717,
+                    1853388461,
+                    1549936443,
+                    1639197614,
+                    4149242087,
+                    1821480941,
+                    3384562419,
+                    4287007935,
+                    3418916961,
+                    4274116686,
+                    234316959,
+                    4060733659,
+                    2366163006,
+                    519718067,
+                    1237957495,
+                    189376755
+                ]
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": null,
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
             "id": 2061710494,
             "tagComponent": {
                 "tag": "Camera"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": [
+                    551743331
+                ]
             },
             "transformComponent": {
                 "position": {
@@ -54,15 +117,21 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 2366163006,
+            "id": 3601356477,
             "tagComponent": {
-                "tag": "Background7"
+                "tag": "Cloud"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": [
+                    1106133089
+                ]
             },
             "transformComponent": {
                 "position": {
-                    "x": -4.234856128692627,
-                    "y": 3.0,
-                    "z": -40.0
+                    "x": 12.132768630981445,
+                    "y": 14.628826141357422,
+                    "z": 0.08526629209518433
                 },
                 "rotation": {
                     "x": 0.0,
@@ -71,8 +140,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 19.0,
+                    "x": 4.0,
+                    "y": 2.0,
                     "z": 1.0
                 }
             },
@@ -87,7 +156,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 367009584
+                "texture": 3278649168
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -99,7 +168,7 @@
                                 "name": "speed",
                                 "fieldId": 2,
                                 "type": 1,
-                                "value": 0.8999999761581421
+                                "value": 0.5
                             },
                             {
                                 "name": "target",
@@ -115,208 +184,72 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 4274116686,
+            "id": 494555213,
             "tagComponent": {
-                "tag": "Background6"
+                "tag": "Platforms"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": [
+                    2323574553,
+                    1505694444,
+                    4083642051,
+                    2538412476,
+                    2177954213,
+                    4002608326
+                ]
             },
             "transformComponent": {
                 "position": {
-                    "x": -4.234856128692627,
-                    "y": 3.0,
-                    "z": -30.0
-                },
-                "rotation": {
                     "x": 0.0,
                     "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 12.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 0.6854838728904724,
-                    "y": 0.6854838728904724,
-                    "z": 0.6854838728904724,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 356001393
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.800000011920929
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 3384562419,
-            "tagComponent": {
-                "tag": "Background5"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -4.234856128692627,
-                    "y": 6.2189178466796875,
-                    "z": -20.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 346724270
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.699999988079071
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 1639197614,
-            "tagComponent": {
-                "tag": "Background4"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -4.234856128692627,
-                    "y": 7.34058141708374,
-                    "z": -17.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 3342606651
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.6000000238418579
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 3538450477,
-            "tagComponent": {
-                "tag": "Player"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -4.427463054656982,
-                    "y": 3.0099146366119385,
                     "z": 0.0
                 },
                 "rotation": {
-                    "x": -0.0,
-                    "y": 1.0,
-                    "z": -0.0,
-                    "w": -4.371138828673793e-8
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
                 },
                 "scale": {
-                    "x": 7.0,
-                    "y": 2.5,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": null,
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 549530867,
+            "tagComponent": {
+                "tag": "Background2"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -43.99633026123047,
+                    "y": 9.06139850616455,
+                    "z": -10.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
                     "z": 1.0
                 }
             },
@@ -328,74 +261,109 @@
                     "z": 1.0,
                     "w": 1.0
                 },
-                "cols": 3,
+                "cols": 1,
                 "rows": 1,
-                "index": 2,
-                "texture": 4228229417
+                "index": 0,
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": [
                     {
-                        "name": "Player",
+                        "name": "ParallaxEffect",
                         "scriptFields": [
                             {
                                 "name": "speed",
                                 "fieldId": 2,
                                 "type": 1,
-                                "value": 500.0
+                                "value": 0.20000000298023224
                             },
                             {
-                                "name": "rest",
-                                "fieldId": 5,
-                                "type": 3,
-                                "value": 4228229417
-                            },
-                            {
-                                "name": "run",
-                                "fieldId": 3,
-                                "type": 3,
-                                "value": 355200902
-                            },
-                            {
-                                "name": "jump",
-                                "fieldId": 4,
-                                "type": 3,
-                                "value": 4281199935
-                            },
-                            {
-                                "name": "jumpForce",
+                                "name": "target",
                                 "fieldId": 1,
-                                "type": 1,
-                                "value": 500.0
+                                "type": 2,
+                                "value": 2061710494
                             }
                         ]
                     }
                 ]
             },
-            "rigidbody2dComponent": {
-                "type": 1,
-                "fixedRotation": true
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 3747247954,
+            "tagComponent": {
+                "tag": "Background2"
             },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 9.111837387084961,
+                    "z": -10.0
+                },
+                "rotation": {
                     "x": 0.0,
-                    "y": 0.0
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
                 },
-                "size": {
-                    "x": 0.05000000074505806,
-                    "y": 0.5
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
                 },
-                "density": 1.0,
-                "friction": 0.0,
-                "restitution": 0.10000000149011612
-            }
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.20000000298023224
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
         },
         {
             "id": 2716300491,
             "tagComponent": {
                 "tag": "Background2"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -426,7 +394,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2076194829
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -454,9 +422,143 @@
             "boxCollider2dComponent": null
         },
         {
+            "id": 3330233668,
+            "tagComponent": {
+                "tag": "Background3"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 8.562976837158203,
+                    "z": -15.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.5
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 790079717,
+            "tagComponent": {
+                "tag": "Background3"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 35.60419464111328,
+                    "y": 8.562976837158203,
+                    "z": -15.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.5
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
             "id": 1853388461,
             "tagComponent": {
                 "tag": "Background3"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -487,7 +589,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 364930476
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -515,9 +617,143 @@
             "boxCollider2dComponent": null
         },
         {
+            "id": 1549936443,
+            "tagComponent": {
+                "tag": "Background4"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -44.02516555786133,
+                    "y": 7.34058141708374,
+                    "z": -17.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.6000000238418579
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 1639197614,
+            "tagComponent": {
+                "tag": "Background4"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 7.34058141708374,
+                    "z": -17.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.6000000238418579
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
             "id": 4149242087,
             "tagComponent": {
                 "tag": "Background4"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -548,7 +784,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3342606651
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -576,9 +812,338 @@
             "boxCollider2dComponent": null
         },
         {
+            "id": 4287007935,
+            "tagComponent": {
+                "tag": "Background5"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 35.75492858886719,
+                    "y": 6.2189178466796875,
+                    "z": -20.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.699999988079071
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 1821480941,
+            "tagComponent": {
+                "tag": "Background5"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -43.92820739746094,
+                    "y": 6.2189178466796875,
+                    "z": -20.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.699999988079071
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 3384562419,
+            "tagComponent": {
+                "tag": "Background5"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 6.2189178466796875,
+                    "z": -20.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 22.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.699999988079071
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 3418916961,
+            "tagComponent": {
+                "tag": "Background6"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -44.04253005981445,
+                    "y": 3.0,
+                    "z": -30.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 12.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 0.6854838728904724,
+                    "y": 0.6854838728904724,
+                    "z": 0.6854838728904724,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.800000011920929
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 4274116686,
+            "tagComponent": {
+                "tag": "Background6"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 3.0,
+                    "z": -30.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 12.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 0.6854838728904724,
+                    "y": 0.6854838728904724,
+                    "z": 0.6854838728904724,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.800000011920929
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
             "id": 234316959,
             "tagComponent": {
                 "tag": "Background6"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -609,7 +1174,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 356001393
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -637,306 +1202,19 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 3080568512,
+            "id": 519718067,
             "tagComponent": {
-                "tag": "Fire"
+                "tag": "Background7"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": 0.8606956601142883,
-                    "y": 2.9053432941436768,
-                    "z": 0.4884450435638428
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 2.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 6,
-                "rows": 1,
-                "index": 3,
-                "texture": 2532348140
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "Fire",
-                        "scriptFields": [
-                            {
-                                "name": "fire",
-                                "fieldId": 1,
-                                "type": 3,
-                                "value": 2532348140
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 4083642051,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -4.714721202850342,
-                    "y": 0.5544782280921936,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2595846413
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
-            }
-        },
-        {
-            "id": 1505694444,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -14.7551851272583,
-                    "y": -0.07408303022384644,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2595846413
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
-            }
-        },
-        {
-            "id": 2323574553,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 6.499776363372803,
-                    "y": 0.32166576385498047,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2595846413
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
-            }
-        },
-        {
-            "id": 2021811162,
-            "tagComponent": {
-                "tag": "Enemy1"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -13.68539810180664,
-                    "y": 1.9258819818496704,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 3.0,
+                    "x": 35.38488006591797,
                     "y": 3.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 1,
-                "texture": 2643091033
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 1,
-                "fixedRotation": true
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.009999999776482582,
-                "restitution": 0.10000000149011612
-            }
-        },
-        {
-            "id": 551743331,
-            "tagComponent": {
-                "tag": "Background8"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -4.234856128692627,
-                    "y": 9.095288276672363,
-                    "z": -50.0
+                    "z": -40.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -945,8 +1223,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 100.0,
-                    "y": 40.0,
+                    "x": 40.0,
+                    "y": 19.0,
                     "z": 1.0
                 }
             },
@@ -961,7 +1239,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2346519027
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -973,7 +1251,7 @@
                                 "name": "speed",
                                 "fieldId": 2,
                                 "type": 1,
-                                "value": 1.0
+                                "value": 0.8999999761581421
                             },
                             {
                                 "name": "target",
@@ -989,15 +1267,19 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 2990555690,
+            "id": 4060733659,
             "tagComponent": {
-                "tag": "Enemy2"
+                "tag": "Background7"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": 2.1378047466278076,
-                    "y": 3.376681327819824,
-                    "z": 0.0
+                    "x": -43.932342529296875,
+                    "y": 3.0,
+                    "z": -40.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -1006,8 +1288,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 1.0,
-                    "y": 2.0,
+                    "x": 40.0,
+                    "y": 19.0,
                     "z": 1.0
                 }
             },
@@ -1021,41 +1303,206 @@
                 },
                 "cols": 1,
                 "rows": 1,
-                "index": 1,
-                "texture": 2506313405
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.8999999761581421
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 2366163006,
+            "tagComponent": {
+                "tag": "Background7"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.234856128692627,
+                    "y": 3.0,
+                    "z": -40.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 19.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.8999999761581421
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 551743331,
+            "tagComponent": {
+                "tag": "Background8"
+            },
+            "relationshipComponent": {
+                "parent": 2061710494,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": -60.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 50.0,
+                    "y": 20.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": []
             },
-            "rigidbody2dComponent": {
-                "type": 1,
-                "fixedRotation": true
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 1106133089,
+            "tagComponent": {
+                "tag": "Cloud"
             },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
+            "relationshipComponent": {
+                "parent": 3601356477,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -2.298389434814453,
+                    "y": 1.198354721069336,
+                    "z": 0.0000644102692604065
+                },
+                "rotation": {
                     "x": 0.0,
-                    "y": 0.0
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
                 },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
                 },
-                "density": 1.0,
-                "friction": 0.009999999776482582,
-                "restitution": 0.10000000149011612
-            }
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 3278649168
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
         },
         {
             "id": 538483128,
             "tagComponent": {
                 "tag": "Coin"
             },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
+            },
             "transformComponent": {
                 "position": {
                     "x": -9.455171585083008,
-                    "y": 3.1677255630493164,
+                    "y": 3.6837971210479736,
                     "z": 0.0
                 },
                 "rotation": {
@@ -1081,190 +1528,11 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3351241205
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": []
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 2538412476,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -9.357549667358398,
-                    "y": 1.923287034034729,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2595846413
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
-            }
-        },
-        {
-            "id": 2177954213,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 1.0305043458938599,
-                    "y": 1.8767173290252686,
-                    "z": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2595846413
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": []
-            },
-            "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
-            },
-            "boxCollider2dComponent": {
-                "isSensor": false,
-                "offset": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "size": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
-            }
-        },
-        {
-            "id": 1106133089,
-            "tagComponent": {
-                "tag": "Cloud"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 2.939211130142212,
-                    "y": 11.858894348144531,
-                    "z": 0.08533070236444473
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 4.0,
-                    "y": 2.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 796567039
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.5
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
             },
             "rigidbody2dComponent": null,
             "boxCollider2dComponent": null
@@ -1273,6 +1541,10 @@
             "id": 1154675119,
             "tagComponent": {
                 "tag": "DiedZone"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -1318,136 +1590,18 @@
             }
         },
         {
-            "id": 519718067,
+            "id": 2021811162,
             "tagComponent": {
-                "tag": "Background7"
+                "tag": "Enemy1"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": 35.38488006591797,
-                    "y": 3.0,
-                    "z": -40.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 19.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 367009584
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.8999999761581421
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 4287007935,
-            "tagComponent": {
-                "tag": "Background5"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 35.75492858886719,
-                    "y": 6.2189178466796875,
-                    "z": -20.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 346724270
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.699999988079071
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 4002608326,
-            "tagComponent": {
-                "tag": "Ground"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -19.082569122314453,
-                    "y": 1.4025664329528809,
+                    "x": -13.68539810180664,
+                    "y": 1.9258819818496704,
                     "z": 0.0
                 },
                 "rotation": {
@@ -1457,8 +1611,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 4.0,
-                    "y": 1.0,
+                    "x": 3.0,
+                    "y": 3.0,
                     "z": 1.0
                 }
             },
@@ -1472,16 +1626,16 @@
                 },
                 "cols": 1,
                 "rows": 1,
-                "index": 0,
-                "texture": 2595846413
+                "index": 1,
+                "texture": 343878163
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": []
             },
             "rigidbody2dComponent": {
-                "type": 0,
-                "fixedRotation": false
+                "type": 1,
+                "fixedRotation": true
             },
             "boxCollider2dComponent": {
                 "isSensor": false,
@@ -1494,20 +1648,24 @@
                     "y": 0.5
                 },
                 "density": 1.0,
-                "friction": 0.5,
-                "restitution": 0.0
+                "friction": 0.009999999776482582,
+                "restitution": 0.10000000149011612
             }
         },
         {
-            "id": 3601356477,
+            "id": 2990555690,
             "tagComponent": {
-                "tag": "Cloud"
+                "tag": "Enemy2"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": 12.132768630981445,
-                    "y": 10.27390193939209,
-                    "z": 0.08526629209518433
+                    "x": 2.1378047466278076,
+                    "y": 3.376681327819824,
+                    "z": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -1516,7 +1674,7 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 4.0,
+                    "x": 1.0,
                     "y": 2.0,
                     "z": 1.0
                 }
@@ -1531,44 +1689,46 @@
                 },
                 "cols": 1,
                 "rows": 1,
-                "index": 0,
-                "texture": 796567039
+                "index": 1,
+                "texture": 95309856
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.5
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
+                "scripts": []
             },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
+            "rigidbody2dComponent": {
+                "type": 1,
+                "fixedRotation": true
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.009999999776482582,
+                "restitution": 0.10000000149011612
+            }
         },
         {
-            "id": 3747247954,
+            "id": 3080568512,
             "tagComponent": {
-                "tag": "Background2"
+                "tag": "Fire"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": -4.234856128692627,
-                    "y": 9.111837387084961,
-                    "z": -10.0
+                    "x": 0.8606956601142883,
+                    "y": 2.9053432941436768,
+                    "z": 0.4884450435638428
                 },
                 "rotation": {
                     "x": 0.0,
@@ -1577,8 +1737,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
+                    "x": 1.0,
+                    "y": 2.0,
                     "z": 1.0
                 }
             },
@@ -1590,89 +1750,22 @@
                     "z": 1.0,
                     "w": 1.0
                 },
-                "cols": 1,
+                "cols": 6,
                 "rows": 1,
-                "index": 0,
-                "texture": 2076194829
+                "index": 3,
+                "texture": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": [
                     {
-                        "name": "ParallaxEffect",
+                        "name": "Fire",
                         "scriptFields": [
                             {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.20000000298023224
-                            },
-                            {
-                                "name": "target",
+                                "name": "fire",
                                 "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 549530867,
-            "tagComponent": {
-                "tag": "Background2"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -43.99633026123047,
-                    "y": 9.06139850616455,
-                    "z": -10.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 2076194829
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.20000000298023224
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
+                                "type": 3,
+                                "value": 0
                             }
                         ]
                     }
@@ -1685,6 +1778,10 @@
             "id": 1237957495,
             "tagComponent": {
                 "tag": "GreenSprite"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -1743,70 +1840,13 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 790079717,
-            "tagComponent": {
-                "tag": "Background3"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 35.60419464111328,
-                    "y": 8.562976837158203,
-                    "z": -15.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 364930476
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.5
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
             "id": 189376755,
             "tagComponent": {
                 "tag": "GreenSprite"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
             },
             "transformComponent": {
                 "position": {
@@ -1865,15 +1905,19 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 3330233668,
+            "id": 2323574553,
             "tagComponent": {
-                "tag": "Background3"
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": -4.234856128692627,
-                    "y": 8.562976837158203,
-                    "z": -15.0
+                    "x": 6.499776363372803,
+                    "y": 0.32166576385498047,
+                    "z": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -1882,8 +1926,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
+                    "x": 4.0,
+                    "y": 1.0,
                     "z": 1.0
                 }
             },
@@ -1898,43 +1942,45 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 364930476
+                "texture": 3216159906
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.5
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
+                "scripts": []
             },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
         },
         {
-            "id": 1549936443,
+            "id": 1505694444,
             "tagComponent": {
-                "tag": "Background4"
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": -44.02516555786133,
-                    "y": 7.34058141708374,
-                    "z": -17.0
+                    "x": -14.7551851272583,
+                    "y": -0.07408303022384644,
+                    "z": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -1943,8 +1989,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
+                    "x": 4.0,
+                    "y": 1.0,
                     "z": 1.0
                 }
             },
@@ -1959,43 +2005,45 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3342606651
+                "texture": 3216159906
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.6000000238418579
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
+                "scripts": []
             },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
         },
         {
-            "id": 1821480941,
+            "id": 4083642051,
             "tagComponent": {
-                "tag": "Background5"
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": -43.92820739746094,
-                    "y": 6.2189178466796875,
-                    "z": -20.0
+                    "x": -4.714721202850342,
+                    "y": 0.5544782280921936,
+                    "z": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -2004,8 +2052,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 22.0,
+                    "x": 4.0,
+                    "y": 1.0,
                     "z": 1.0
                 }
             },
@@ -2020,43 +2068,45 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 346724270
+                "texture": 3216159906
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.699999988079071
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
+                "scripts": []
             },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
         },
         {
-            "id": 3418916961,
+            "id": 2538412476,
             "tagComponent": {
-                "tag": "Background6"
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
             },
             "transformComponent": {
                 "position": {
-                    "x": -44.04253005981445,
-                    "y": 3.0,
-                    "z": -30.0
+                    "x": -9.357549667358398,
+                    "y": 1.923287034034729,
+                    "z": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -2065,69 +2115,8 @@
                     "w": 1.0
                 },
                 "scale": {
-                    "x": 40.0,
-                    "y": 12.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 0.6854838728904724,
-                    "y": 0.6854838728904724,
-                    "z": 0.6854838728904724,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 356001393
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.800000011920929
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 4060733659,
-            "tagComponent": {
-                "tag": "Background7"
-            },
-            "transformComponent": {
-                "position": {
-                    "x": -43.932342529296875,
-                    "y": 3.0,
-                    "z": -40.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 19.0,
+                    "x": 4.0,
+                    "y": 1.0,
                     "z": 1.0
                 }
             },
@@ -2142,32 +2131,255 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 367009584
+                "texture": 3216159906
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
+        },
+        {
+            "id": 2177954213,
+            "tagComponent": {
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 1.0305043458938599,
+                    "y": 1.8767173290252686,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 4.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 3216159906
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
+        },
+        {
+            "id": 4002608326,
+            "tagComponent": {
+                "tag": "Ground"
+            },
+            "relationshipComponent": {
+                "parent": 494555213,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -19.082569122314453,
+                    "y": 1.4025664329528809,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 4.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 3216159906
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": []
+            },
+            "rigidbody2dComponent": {
+                "type": 0,
+                "fixedRotation": false
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0
+            }
+        },
+        {
+            "id": 3538450477,
+            "tagComponent": {
+                "tag": "Player"
+            },
+            "relationshipComponent": {
+                "parent": 0,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": -4.747066974639893,
+                    "y": 4.051506996154785,
+                    "z": 0.00006103515625
+                },
+                "rotation": {
+                    "x": 9.099629778575036e-7,
+                    "y": 1.0,
+                    "z": 9.099629778575036e-7,
+                    "w": -4.371055695173709e-8
+                },
+                "scale": {
+                    "x": 7.0,
+                    "y": 2.5,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 3,
+                "rows": 1,
+                "index": 2,
+                "texture": 3721190324
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
                 "scripts": [
                     {
-                        "name": "ParallaxEffect",
+                        "name": "Player",
                         "scriptFields": [
                             {
                                 "name": "speed",
                                 "fieldId": 2,
                                 "type": 1,
-                                "value": 0.8999999761581421
+                                "value": 500.0
                             },
                             {
-                                "name": "target",
+                                "name": "rest",
+                                "fieldId": 5,
+                                "type": 3,
+                                "value": 3721190324
+                            },
+                            {
+                                "name": "run",
+                                "fieldId": 3,
+                                "type": 3,
+                                "value": 0
+                            },
+                            {
+                                "name": "jump",
+                                "fieldId": 4,
+                                "type": 3,
+                                "value": 0
+                            },
+                            {
+                                "name": "jumpForce",
                                 "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
+                                "type": 1,
+                                "value": 500.0
                             }
                         ]
                     }
                 ]
             },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
+            "rigidbody2dComponent": {
+                "type": 1,
+                "fixedRotation": true
+            },
+            "boxCollider2dComponent": {
+                "isSensor": false,
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 0.05000000074505806,
+                    "y": 0.5
+                },
+                "density": 1.0,
+                "friction": 0.0,
+                "restitution": 0.10000000149011612
+            }
         }
     ]
 }
