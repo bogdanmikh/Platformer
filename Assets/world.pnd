@@ -264,7 +264,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2032303443
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -329,7 +329,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2032303443
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -394,7 +394,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2032303443
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -459,7 +459,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 3018614922
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -524,7 +524,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 3018614922
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -589,7 +589,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 3018614922
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -654,7 +654,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2234686493
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -719,7 +719,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2234686493
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -784,7 +784,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2234686493
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -849,7 +849,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 363030233
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -914,7 +914,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 363030233
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -979,7 +979,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 363030233
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1007,7 +1007,7 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 3418916961,
+            "id": 234316959,
             "tagComponent": {
                 "tag": "Background6"
             },
@@ -1017,7 +1017,7 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -44.04253005981445,
+                    "x": 35.53428649902344,
                     "y": 3.0,
                     "z": -30.0
                 },
@@ -1036,15 +1036,15 @@
             "cameraComponent": null,
             "spriteRendererComponent": {
                 "color": {
-                    "x": 0.6854838728904724,
-                    "y": 0.6854838728904724,
-                    "z": 0.6854838728904724,
+                    "x": 0.6935483813285828,
+                    "y": 0.6935483813285828,
+                    "z": 0.6935483813285828,
                     "w": 1.0
                 },
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2658182142
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1109,7 +1109,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2658182142
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1137,7 +1137,7 @@
             "boxCollider2dComponent": null
         },
         {
-            "id": 234316959,
+            "id": 3418916961,
             "tagComponent": {
                 "tag": "Background6"
             },
@@ -1147,7 +1147,7 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": 35.53428649902344,
+                    "x": -44.04253005981445,
                     "y": 3.0,
                     "z": -30.0
                 },
@@ -1166,15 +1166,15 @@
             "cameraComponent": null,
             "spriteRendererComponent": {
                 "color": {
-                    "x": 0.6935483813285828,
-                    "y": 0.6935483813285828,
-                    "z": 0.6935483813285828,
+                    "x": 0.6854838728904724,
+                    "y": 0.6854838728904724,
+                    "z": 0.6854838728904724,
                     "w": 1.0
                 },
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2658182142
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1187,71 +1187,6 @@
                                 "fieldId": 2,
                                 "type": 1,
                                 "value": 0.800000011920929
-                            },
-                            {
-                                "name": "target",
-                                "fieldId": 1,
-                                "type": 2,
-                                "value": 2061710494
-                            }
-                        ]
-                    }
-                ]
-            },
-            "rigidbody2dComponent": null,
-            "boxCollider2dComponent": null
-        },
-        {
-            "id": 519718067,
-            "tagComponent": {
-                "tag": "Background7"
-            },
-            "relationshipComponent": {
-                "parent": 1792531514,
-                "children": []
-            },
-            "transformComponent": {
-                "position": {
-                    "x": 35.38488006591797,
-                    "y": 3.0,
-                    "z": -40.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0
-                },
-                "scale": {
-                    "x": 40.0,
-                    "y": 19.0,
-                    "z": 1.0
-                }
-            },
-            "cameraComponent": null,
-            "spriteRendererComponent": {
-                "color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0,
-                    "w": 1.0
-                },
-                "cols": 1,
-                "rows": 1,
-                "index": 0,
-                "texture": 0
-            },
-            "cubeMapComponent": null,
-            "scriptListComponent": {
-                "scripts": [
-                    {
-                        "name": "ParallaxEffect",
-                        "scriptFields": [
-                            {
-                                "name": "speed",
-                                "fieldId": 2,
-                                "type": 1,
-                                "value": 0.8999999761581421
                             },
                             {
                                 "name": "target",
@@ -1304,7 +1239,72 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 1703841141
+            },
+            "cubeMapComponent": null,
+            "scriptListComponent": {
+                "scripts": [
+                    {
+                        "name": "ParallaxEffect",
+                        "scriptFields": [
+                            {
+                                "name": "speed",
+                                "fieldId": 2,
+                                "type": 1,
+                                "value": 0.8999999761581421
+                            },
+                            {
+                                "name": "target",
+                                "fieldId": 1,
+                                "type": 2,
+                                "value": 2061710494
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rigidbody2dComponent": null,
+            "boxCollider2dComponent": null
+        },
+        {
+            "id": 519718067,
+            "tagComponent": {
+                "tag": "Background7"
+            },
+            "relationshipComponent": {
+                "parent": 1792531514,
+                "children": []
+            },
+            "transformComponent": {
+                "position": {
+                    "x": 35.38488006591797,
+                    "y": 3.0,
+                    "z": -40.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 40.0,
+                    "y": 19.0,
+                    "z": 1.0
+                }
+            },
+            "cameraComponent": null,
+            "spriteRendererComponent": {
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "cols": 1,
+                "rows": 1,
+                "index": 0,
+                "texture": 1703841141
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1369,7 +1369,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 1703841141
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1434,7 +1434,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 4264536396
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1528,7 +1528,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "texture": 2640187386
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1753,7 +1753,7 @@
                 "cols": 6,
                 "rows": 1,
                 "index": 3,
-                "texture": 0
+                "texture": 753204596
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1765,7 +1765,7 @@
                                 "name": "fire",
                                 "fieldId": 1,
                                 "type": 3,
-                                "value": 0
+                                "value": 753204596
                             }
                         ]
                     }
@@ -2344,13 +2344,13 @@
                                 "name": "run",
                                 "fieldId": 3,
                                 "type": 3,
-                                "value": 0
+                                "value": 3453243547
                             },
                             {
                                 "name": "jump",
                                 "fieldId": 4,
                                 "type": 3,
-                                "value": 0
+                                "value": 910136998
                             },
                             {
                                 "name": "jumpForce",
