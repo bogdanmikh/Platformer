@@ -6,10 +6,10 @@
 #include <Bamboo/Logger.hpp>
 
 void Animation::start(
-    SpriteRendererComponent spriteRenderer, Texture texture, int cols, int rows, float swapTime
+    SpriteRendererComponent spriteRenderer, Material material, int cols, int rows, float swapTime
 ) {
     m_spriteRenderer = spriteRenderer;
-    m_texture = texture;
+    m_material = material;
     m_cols = cols;
     m_rows = rows;
     m_swapTime = swapTime;
@@ -24,7 +24,7 @@ void Animation::update(double dt) {
         m_index %= (m_cols * m_rows);
         m_time = 0;
     }
-    m_spriteRenderer.setTexture(m_texture);
+    m_spriteRenderer.setMaterial(m_material);
     m_spriteRenderer.setCell(m_cols, m_rows, m_index);
 }
 

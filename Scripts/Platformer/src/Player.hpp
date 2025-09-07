@@ -23,9 +23,9 @@ public:
 
     float jumpForce;
     float speed;
-    Texture run;
-    Texture rest;
-    Texture jump;
+    Material run;
+    Material rest;
+    Material jump;
 
     PANDA_FIELDS_BEGIN(Player)
     PANDA_FIELD(jumpForce)

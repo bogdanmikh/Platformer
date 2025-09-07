@@ -156,7 +156,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3278649168
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -264,7 +264,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2032303443
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -329,7 +329,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2032303443
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -394,7 +394,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2032303443
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -459,7 +459,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3018614922
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -524,7 +524,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3018614922
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -589,7 +589,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3018614922
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -654,7 +654,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2234686493
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -719,7 +719,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2234686493
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -784,7 +784,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2234686493
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -849,7 +849,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 363030233
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -914,7 +914,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 363030233
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -979,7 +979,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 363030233
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1044,7 +1044,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2658182142
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1109,7 +1109,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2658182142
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1174,7 +1174,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2658182142
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1239,7 +1239,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 1703841141
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1304,7 +1304,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 1703841141
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1369,7 +1369,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 1703841141
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1434,7 +1434,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 4264536396
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1481,7 +1481,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3278649168
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1528,7 +1528,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 2640187386
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1627,7 +1627,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 1,
-                "texture": 343878163
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1690,7 +1690,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 1,
-                "texture": 95309856
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1753,7 +1753,7 @@
                 "cols": 6,
                 "rows": 1,
                 "index": 3,
-                "texture": 753204596
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1764,8 +1764,8 @@
                             {
                                 "name": "fire",
                                 "fieldId": 1,
-                                "type": 3,
-                                "value": 753204596
+                                "type": 4,
+                                "value": 0
                             }
                         ]
                     }
@@ -1812,7 +1812,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1877,7 +1877,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 0
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -1942,7 +1942,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2005,7 +2005,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2068,7 +2068,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2131,7 +2131,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2194,7 +2194,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2257,7 +2257,7 @@
                 "cols": 1,
                 "rows": 1,
                 "index": 0,
-                "texture": 3216159906
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2293,9 +2293,9 @@
             },
             "transformComponent": {
                 "position": {
-                    "x": -4.747066974639893,
-                    "y": 4.051506996154785,
-                    "z": 0.00006103515625
+                    "x": -4.747066020965576,
+                    "y": 3.5835494995117188,
+                    "z": 0.0000601834908593446
                 },
                 "rotation": {
                     "x": 9.099629778575036e-7,
@@ -2320,7 +2320,7 @@
                 "cols": 3,
                 "rows": 1,
                 "index": 2,
-                "texture": 3721190324
+                "material": 0
             },
             "cubeMapComponent": null,
             "scriptListComponent": {
@@ -2332,25 +2332,25 @@
                                 "name": "speed",
                                 "fieldId": 2,
                                 "type": 1,
-                                "value": 500.0
+                                "value": 600.0
                             },
                             {
                                 "name": "rest",
                                 "fieldId": 5,
-                                "type": 3,
-                                "value": 3721190324
+                                "type": 4,
+                                "value": 0
                             },
                             {
                                 "name": "run",
                                 "fieldId": 3,
-                                "type": 3,
-                                "value": 3453243547
+                                "type": 4,
+                                "value": 0
                             },
                             {
                                 "name": "jump",
                                 "fieldId": 4,
-                                "type": 3,
-                                "value": 910136998
+                                "type": 4,
+                                "value": 0
                             },
                             {
                                 "name": "jumpForce",

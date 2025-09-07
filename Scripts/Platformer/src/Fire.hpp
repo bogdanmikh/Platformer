@@ -7,10 +7,7 @@
 
 #pragma once
 
-#include <Panda/ScriptClass.hpp>
-#include <Panda/ScriptRegistry.hpp>
 #include <Bamboo/Bamboo.hpp>
-#include <Bamboo/Script.hpp>
 #include "Animation.hpp"
 
 using namespace Bamboo;
@@ -21,7 +18,7 @@ public:
 
     void update(float dt) override;
 
-    Texture fire;
+    Material fire;
 
     PANDA_FIELDS_BEGIN(Fire)
     PANDA_FIELD(fire)

@@ -12,7 +12,7 @@ class Animation {
 public:
     void start(
         SpriteRendererComponent spriteRenderer,
-        Texture texture,
+        Material material,
         int cols,
         int rows,
         float swapTime = 0.25
@@ -27,7 +27,7 @@ private:
     int m_rows;
     float m_swapTime;
     float m_time;
-    Texture m_texture;
+    Material m_material;
     int m_index;
     SpriteRendererComponent m_spriteRenderer;
 };

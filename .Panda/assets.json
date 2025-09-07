@@ -1,83 +1,21 @@
 {
     "assets": [
         {
-            "id": 2234686493,
-            "type": 1,
+            "id": 144060677,
+            "type": 4,
             "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Parallax/4.png"
+                "materialPath": "Assets/Jump.mat",
+                "shader": 0
             }
         },
         {
-            "id": 363030233,
+            "id": 3721190324,
             "type": 1,
             "meta": {
                 "minFiltering": 0,
                 "magFiltering": 0,
                 "numMips": 0,
-                "path": "Assets/Parallax/5.png"
-            }
-        },
-        {
-            "id": 2032303443,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Parallax/2.png"
-            }
-        },
-        {
-            "id": 3018614922,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Parallax/3.png"
-            }
-        },
-        {
-            "id": 95309856,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Enemy2.png"
-            }
-        },
-        {
-            "id": 3453243547,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Run.png"
-            }
-        },
-        {
-            "id": 1703841141,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Parallax/7.png"
-            }
-        },
-        {
-            "id": 2658182142,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/Parallax/6.png"
+                "path": "Assets/Rest.png"
             }
         },
         {
@@ -111,13 +49,13 @@
             }
         },
         {
-            "id": 343878163,
+            "id": 3278649168,
             "type": 1,
             "meta": {
                 "minFiltering": 0,
                 "magFiltering": 0,
                 "numMips": 0,
-                "path": "Assets/Enemy1.png"
+                "path": "Assets/cloud.png"
             }
         },
         {
@@ -131,16 +69,6 @@
             }
         },
         {
-            "id": 3278649168,
-            "type": 1,
-            "meta": {
-                "minFiltering": 0,
-                "magFiltering": 0,
-                "numMips": 0,
-                "path": "Assets/cloud.png"
-            }
-        },
-        {
             "id": 3216159906,
             "type": 1,
             "meta": {
@@ -151,13 +79,103 @@
             }
         },
         {
-            "id": 3721190324,
+            "id": 1703841141,
             "type": 1,
             "meta": {
                 "minFiltering": 0,
                 "magFiltering": 0,
                 "numMips": 0,
-                "path": "Assets/Rest.png"
+                "path": "Assets/Parallax/7.png"
+            }
+        },
+        {
+            "id": 2658182142,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Parallax/6.png"
+            }
+        },
+        {
+            "id": 3453243547,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Run.png"
+            }
+        },
+        {
+            "id": 95309856,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Enemy2.png"
+            }
+        },
+        {
+            "id": 3018614922,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Parallax/3.png"
+            }
+        },
+        {
+            "id": 3718313061,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Back.jpg"
+            }
+        },
+        {
+            "id": 2032303443,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Parallax/2.png"
+            }
+        },
+        {
+            "id": 363030233,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Parallax/5.png"
+            }
+        },
+        {
+            "id": 343878163,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Enemy1.png"
+            }
+        },
+        {
+            "id": 2234686493,
+            "type": 1,
+            "meta": {
+                "minFiltering": 0,
+                "magFiltering": 0,
+                "numMips": 0,
+                "path": "Assets/Parallax/4.png"
             }
         }
     ]

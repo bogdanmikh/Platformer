@@ -10,6 +10,7 @@
 #include <Bamboo/Script.hpp>
 #include <Bamboo/Components/TransformComponent.hpp>
 #include <Bamboo/Components/Rigidbody2DComponent.hpp>
+
 using namespace Bamboo;
 
 class Camera : public Bamboo::Script {
